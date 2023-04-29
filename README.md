@@ -3,7 +3,8 @@
 
 * Eureka Service
 * Spring Cloud Gateway
-* Microsserviços de cartões
+* Microsserviços de Cartões
 * Microsserviços de Cliente
+* Microsserviços Avaliador de Crédito
 
 
