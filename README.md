@@ -5,6 +5,6 @@
 * Spring Cloud Gateway
 * Microsserviços de Cartões
 * Microsserviços de Cliente
-* Microsserviços Avaliador de Crédito
+* Microsserviços de Avaliador de Crédito
 
 
