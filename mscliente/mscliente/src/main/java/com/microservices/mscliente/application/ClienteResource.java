@@ -3,6 +3,7 @@ package com.microservices.mscliente.application;
 import com.microservices.mscliente.application.representation.ClienteSaveRequest;
 import com.microservices.mscliente.infra.repository.ClienteRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -12,6 +13,7 @@ import java.net.URI;
 @RestController
 @RequestMapping("clientes")
 @RequiredArgsConstructor
+@Slf4j
 public class ClienteResource {
 
     private final ClienteService service;
@@ -19,6 +21,7 @@ public class ClienteResource {
 
     @GetMapping
     public String status(){
+        log.info("Obtendo o status de microsservice de clientes");
         return "ok";
     }
 
